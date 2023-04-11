@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.livebeans.livebeansclient">
+    <module_version install_time="1680659898317" last="true" origin="installer" specification_version="1.0">
+        <file crc="3598105607" name="config/Modules/org-livebeans-livebeansclient.xml"/>
+        <file crc="1580895601" name="modules/ext/LiveBeansCommon.jar"/>
+        <file crc="1806259893" name="modules/org-livebeans-livebeansclient.jar"/>
+    </module_version>
+</module>

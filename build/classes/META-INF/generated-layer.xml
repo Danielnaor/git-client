@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Bugtracking">
+            <file name="livebeansclient-LiveBeansToolbarAction.instance">
+                <!--livebeansclient.gui.LiveBeansToolbarAction-->
+                <attr bundlevalue="livebeansclient.gui.Bundle#CTL_LiveBeansToolbarAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="livebeansclient.gui.LiveBeansToolbarAction"/>
+                <attr name="iconBase" stringvalue="livebeansclient/sprites/LiveBeans_Connect_16.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="livebeansclient-LiveBeansToolbarAction.shadow">
+                <!--livebeansclient.gui.LiveBeansToolbarAction-->
+                <attr name="originalFile" stringvalue="Actions/Bugtracking/livebeansclient-LiveBeansToolbarAction.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
